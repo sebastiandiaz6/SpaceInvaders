@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(20, 11, 11);
+}
+.grid {
+  width: 100vmin;
+  height: 100vmin;
+  border: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("img/background.jpg") !important;
+  background-position: center;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.grid div {
+  width: calc(100vmin / 15);
+  height: calc(100vmin / 15);
+}
+
+.invader {
+  background-image: url("img/invader.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.shooter {
+  background-image: url("img/ship.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.laser {
+  background-image: url("img/shot.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.boom {
+  background-image: url("img/boom.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.results {
+  position: absolute;
+  z-index: 1;
+  color: blue;
+  font-family: fantasy;
+}
